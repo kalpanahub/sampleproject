@@ -6,6 +6,7 @@ public class LoginTests {
 		System.out.println("Doing changes for login tests for the 2nd time");
 		System.out.println("Doing third time changes");
 		System.out.println("Doing 4th time changes");
+		System.out.println("Created a new branch for login tests");
 		
 	}
 }
