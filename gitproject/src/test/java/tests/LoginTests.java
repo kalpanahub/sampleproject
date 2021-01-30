@@ -1,5 +1,8 @@
 package tests;
 
+
+import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 
 public class LoginTests {
@@ -12,8 +15,15 @@ public class LoginTests {
 		System.out.println("Created a new branch for login tests");
 		
 	}
-	public void login() {
+
+	
+	public void login(String uname, String pwd) {
 		driver.get("google.com");
+		driver.findElement(By.xpath("")).sendKeys(uname);
+		driver.findElement(By.xpath("")).sendKeys(pwd);
+		driver.findElement(By.xpath("")).click();
+
 	}
 	
 }
+
