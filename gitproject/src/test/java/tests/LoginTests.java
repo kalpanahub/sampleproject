@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginTests {
@@ -14,9 +15,9 @@ public class LoginTests {
 	}
 	public void login(String uname, String pwd) {
 		driver.get("google.com");
-		driver.findElement(By.xpath("")).sendeys(uname);
-		driver.findElement(By.xpath("")).sendeys(pwd);
-		driver.findElement(By.xpath("")).click;
+		driver.findElement(By.xpath("")).sendKeys(uname);
+		driver.findElement(By.xpath("")).sendKeys(pwd);
+		driver.findElement(By.xpath("")).click();
 	}
 	
 }
